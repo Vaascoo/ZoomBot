@@ -20,8 +20,9 @@ Run it to generate the json (written to json.txt).
 Use node's JSON.parse to parse it to a json object and paste it in server/src/fetch.js (var RAW = <json>).  
 Set the following environment variables :  
   TOKEN = \<your-discord-token\>  
-  API_PATH = http://localhost:8000/api (unless you change it)  
-
+  API_PATH = http://localhost:8000/api (unless you change it)    
+  
+I will change the class picking method in the near future.  
 ### Running
 Windows:
 ```sh
